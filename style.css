@@ -1,0 +1,133 @@
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+    color:#222;
+    transition:0.3s;
+}
+
+header{
+    background:#ff3366;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+#darkBtn{
+    display:block;
+    margin:15px auto;
+    padding:10px 20px;
+    background:#222;
+    color:white;
+    border:none;
+    border-radius:8px;
+    cursor:pointer;
+}
+
+.search-box{
+    text-align:center;
+    margin:20px;
+}
+
+.search-box input{
+    width:90%;
+    padding:12px;
+    font-size:18px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+.categories{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:15px;
+    padding:15px;
+}
+
+.card{
+    display:block;
+    background:white;
+    padding:20px;
+    text-align:center;
+    text-decoration:none;
+    color:#222;
+    font-size:18px;
+    font-weight:bold;
+    border-radius:15px;
+    box-shadow:0 4px 10px rgba(0,0,0,.15);
+    transition:0.3s;
+}
+
+.card:hover{
+    background:#ff3366;
+    color:white;
+    transform:scale(1.05);
+}
+
+.shayari-box{
+    background:white;
+    margin:20px;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 2px 8px rgba(0,0,0,.2);
+    text-align:center;
+}
+
+button{
+    padding:12px 20px;
+    margin:10px;
+    background:#ff3366;
+    color:white;
+    border:none;
+    border-radius:8px;
+    font-size:16px;
+    cursor:pointer;
+    transition:0.3s;
+}
+
+button:hover{
+    transform:scale(1.05);
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+    margin-top:20px;
+}
+
+/* Dark Mode */
+
+.dark{
+    background:#121212;
+    color:white;
+}
+
+.dark header{
+    background:#000;
+}
+
+.dark .card{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark .shayari-box{
+    background:#1f1f1f;
+    color:white;
+}
+
+.dark input{
+    background:#2b2b2b;
+    color:white;
+    border:1px solid #555;
+}
+
+.dark footer{
+    background:#000;
+}
+
+.dark #darkBtn{
+    background:#ff3366;
+}
