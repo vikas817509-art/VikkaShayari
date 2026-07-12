@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://vikas817509-art.github.io/VikkaShayari/sitemap.xml
